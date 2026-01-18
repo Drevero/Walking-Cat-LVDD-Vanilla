@@ -8,7 +8,7 @@ Fork this repo or download it in .zip
 
 Next, you just have to open *index.html* and copy/paste the mandatory lines in your project.
 
-## How to custom the cat ?
+## How to custom the cat ?
 You can replace the current sprite set by another one, respecting the original ratio and size of each sprite.
 
 ## How to custom the text on mouse over ?
