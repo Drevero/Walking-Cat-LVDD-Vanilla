@@ -1,0 +1,33 @@
+#tiny_cat {
+    display: block;
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    bottom: -4px;
+    left: 0px;
+    transition: 0.2s transform ease-in-out;
+}
+.fliped {
+transform: scaleX(-1);
+}
+.heart {
+    font-size: 14px;
+    position: fixed;
+    color: red;
+    animation: 1s ease-in-out 0s none running heartGlow;
+}
+@keyframes heartGlow {
+    0% {
+        transform: scale(1);
+        bottom: 10px;
+    }
+    50% {
+        transform: scale(1.2);
+        bottom: 30px;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+        bottom: 50px;
+    }
+}
